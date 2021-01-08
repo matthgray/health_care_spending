@@ -15,7 +15,7 @@ colnames(health_data) <- c("Disease","2000", "2001","2002","2003","2004",
                            "2012","2013","2014","2015","2016","2017")
 
 # remove rows
-health_data <- health_data[-c(1,39,38,37),]
+health_data <- health_data[-c(1,2,3,4,19,39,38,37),]
 
 # summary(health_data)
 
@@ -30,35 +30,49 @@ health_data$"2015" <- as.character(as.numeric(health_data$"2015"))
 h_data <- health_data %>%
             pivot_longer(cols = !Disease,
                names_to = "Year",
-               values_to = "Costs")
+               values_to = "Expenditure")
 
-glimpse(h_data)
-glimpse(health_data)
-h_data$Costs<- as.numeric(as.character(h_data$Costs))
 
-summary(h_data)
+h_data$Expenditure<- as.numeric(as.character(h_data$Expenditure))
 
-h_data %>%
-  filter(Disease == "Congenital anomalies")
-low_costs <- h_data %>%
-              arrange(Costs)
+
+write.csv(h_data, "/Users/matth/Downloads/nss_projects_ds/Questions/Mid_course_project/health_care_spending/app/MyData.csv",row.names=TRUE)
+
+
+health_spending <- read_csv('MyData.csv')
+
+h_avg_costs <-health_spending %>%
+  group_by(Disease) %>%
+  summarize(average_cost = mean(Expenditure)) %>%
+  arrange(desc(average_cost))
+
+low_costs <- health_spending %>%
+              arrange(Expenditure)
+
+Disease_choices <- sort(unique(health_spending$Disease))
+
 high_costs <- h_data %>%
   arrange(desc(Costs))
 
+h_avg_costs <-h_data %>%
+                group_by(Disease) %>%
+                summarize(average_cost = mean(Costs)) %>%
+                arrange(desc(average_cost))
+
 h_data %>%
   group_by(Disease) %>%
-  summarize(average_cost = mean(Costs)) %>%
-  arrange(desc(average_cost))
+  summarize(std = sd(Costs)) %>%
+  arrange(desc(std))
 
 
-health <- h_data %>%
-  filter(Disease == "Diseases of the circulatory system") %>%
-  ggplot(aes(x=Year, y=Costs)) +
+health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  ggplot(aes(x=Year, y=Expenditure)) +
   ggtitle("Health") +
-  geom_bar(stat="identity",fill="gray", color = 'black') +
-  theme_dark()
+  geom_bar(stat="identity", fill="steelblue") +
+  geom_text(aes(label=Expenditure), vjust=1.6, color="black", size=3.5)
 
-health
+
 
 
 
