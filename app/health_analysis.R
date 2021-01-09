@@ -49,19 +49,23 @@ h_avg_costs <-health_spending %>%
 low_costs <- health_spending %>%
               arrange(Expenditure)
 
-Disease_choices <- sort(unique(health_spending$Disease))
+
 
 high_costs <- h_data %>%
   arrange(desc(Costs))
 
-h_avg_costs <-h_data %>%
+
+health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases")
+  
+h_avg_costs <-health_spending %>%
                 group_by(Disease) %>%
-                summarize(average_cost = mean(Costs)) %>%
+                summarize(average_cost = mean(Expenditure)) %>%
                 arrange(desc(average_cost))
 
-h_data %>%
+health_spending %>%
   group_by(Disease) %>%
-  summarize(std = sd(Costs)) %>%
+  summarize(std = sd(Expenditure)) %>%
   arrange(desc(std))
 
 
@@ -72,16 +76,24 @@ health_spending %>%
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Expenditure), vjust=1.6, color="black", size=3.5)
 
+health_spending %>%
+  filter(Disease =="Symptoms; signs; and ill-defined conditions")%>%
+  ggplot(aes(x=Year, y=Expenditure, group=1)) +
+  geom_step()+
+  geom_point()
 
-
-
-
-m_health <- h_data %>%
-  slice(415:432) %>%
-  ggplot(aes(x=Year, y=Costs)) +
-  ggtitle("Mental Health") +
-  geom_bar(stat="identity",fill="gray", color = 'black') +
+health_spending %>%
+  filter(Disease == "Symptoms; signs; and ill-defined conditions") %>%
+  ggplot(aes( y=Expenditure))+
+  geom_boxplot(fill='steelblue',color="green")+
   theme_dark()
+  #geom_dotplot(binaxis = 'y',stackdir = 'center', dotsize =1)
+
+library(plotly)
+fig <- health_spending %>% 
+  plot_ly(y = Expenditure, type = "box", quartilemethod="exclusive") # or "inclusive", or "linear" by default
+
+fig
 
 m_health
 
