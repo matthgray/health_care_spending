@@ -40,6 +40,20 @@ write.csv(h_data, "/Users/matth/Downloads/nss_projects_ds/Questions/Mid_course_p
 
 
 health_spending <- read_csv('MyData.csv')
+if (!require("pacman")) install.packages("pacman")
+
+# pacman must already be installed; then load contributed
+# packages (including pacman) with pacman
+pacman::p_load(GGally, magrittr, pacman, rio, tidyverse)
+
+health_spending %>% ggpairs()
+
+health_spending %>% 
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  ggplot(aes(Year, Expenditure)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm)
+
 
 h_avg_costs <-health_spending %>%
   group_by(Disease) %>%
