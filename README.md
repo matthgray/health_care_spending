@@ -19,7 +19,7 @@ The idea is to create a descriptive analysis application on health care expendit
 I'm using data from https://www.bea.gov/data/special-topics/health-care to analyze this
 
 # Cleaning
-The data needed some row removed and a transfer from wide to tall.
+The data needed some rows removed and a transfer from wide to tall.
 
 # Visualization
 The application creates two graphs. One is a bar graph. The other is a dot graph with a regression line.
