@@ -1,12 +1,3 @@
-# health_care_spending
-Analysis of health care spending by disease
-Executive Summary
-Create a presentation that shows key statistics from bea.gov website, and an understanding of how prices work in healthcare. The app allows the user to select a disease. The output will show the cost of that disease from 2007 to 2017.
-Motivation
-What has happened to the cost of mental health since 2012? What makes prices different in health care than other markets? 
-
-
-
 # Inspiration
 The idea is to create a descriptive analysis application on health care expenditure by disease in the United States from 2000 to 2017. This can help health insurance companies negotiate prices for coverage with hospitals. Also, entrepreneur's could use this to see demand for products or services in certain markets in health care.
 ## Key Questions:
