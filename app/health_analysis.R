@@ -5,54 +5,47 @@ pacman::p_load(pacman, party, rio, tidyverse)
 library(ggplot2)
 library(dplyr)
 
-(health_data <- import("2017-MEPS-account-release-table.xlsx") %>% as_tibble())
-# (dummy <- import("expenditure_dummy_data.xlsx") %>% as_tibble())
-# (dummy <- import("test.xlsx") %>% as_tibble())
 
-# change column names
-colnames(health_data) <- c("Disease","2000", "2001","2002","2003","2004",
-                           "2005","2006","2007","2008","2009","2010","2011",
-                           "2012","2013","2014","2015","2016","2017")
-
-# remove rows
-health_data <- health_data[-c(1,2,3,4,19,39,38,37),]
-
-# summary(health_data)
-
-
-
-health_data$"2015" <- as.character(as.numeric(health_data$"2015"))
-
-#summary(health_data)
-
-# change it to narrow and not wide data
-# pivot_wider
-h_data <- health_data %>%
-            pivot_longer(cols = !Disease,
-               names_to = "Year",
-               values_to = "Expenditure")
-
-
-h_data$Expenditure<- as.numeric(as.character(h_data$Expenditure))
-
-
-write.csv(h_data, "/Users/matth/Downloads/nss_projects_ds/Questions/Mid_course_project/health_care_spending/app/MyData.csv",row.names=TRUE)
-
-
-health_spending <- read_csv('MyData.csv')
+health_spending <- read_csv('CleanData.csv')
 if (!require("pacman")) install.packages("pacman")
 
 # pacman must already be installed; then load contributed
 # packages (including pacman) with pacman
 pacman::p_load(GGally, magrittr, pacman, rio, tidyverse)
 
-health_spending %>% ggpairs()
+# health_spending %>% ggpairs()
+
+# growth_rate = growth %>%
+  # first sort by year
+test <- health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  arrange(Year) %>%
+  mutate(Diff_year = Year - lag(Year),  # Difference in time (just in case there are gaps)
+         Diff_growth = Expenditure - lag(Expenditure), # Difference in route between years
+         Rate_percent = (Diff_growth / Diff_year)/Expenditure * 100) # growth rate in percent
+test
 
 health_spending %>% 
   filter(Disease == "Infectious and parasitic diseases") %>%
   ggplot(aes(Year, Expenditure)) +
   geom_point(size = 3) +
   geom_smooth(method = lm)
+
+fit1 <- health_spending %>% 
+  filter(Disease== "Infectious and parasitic diseases") %>%# Save as "fit1"
+  select(Year, Expenditure) %>%  # y, then x
+  lm() 
+
+fit1 %>% summary()
+fit1 %>% confint()
+fit1 %>% predict()
+
+fit1 %>% predict(interval = "prediction")
+
+fit1 %>% lm.influence()
+fit1 %>% influence.measures()
+
+fit1 %>% plot()
 
 
 h_avg_costs <-health_spending %>%

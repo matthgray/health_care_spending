@@ -8,7 +8,7 @@ library(dplyr)
 
 
 
-health_spending <- read_csv('MyData.csv')
+health_spending <- read_csv('CleanData.csv')
 
 
 Disease_choices <- sort(unique(health_spending$Disease))

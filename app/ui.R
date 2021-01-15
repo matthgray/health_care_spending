@@ -16,16 +16,16 @@ shinyUI(
                   selected = Disease_choices[1])
 
     ),
-    
+    #distPlot
     # Show a plot of the generated distribution
     dashboardBody(
       fluidRow(
-        column(width = 12,
-               box(width = NULL, #title = 'bar plot',
-                   plotOutput("distPlot")
-               )
+        tabBox(
+          title = "First",
+          id = "distPlot", height = "300px", width = "300px",
+          tabPanel("Bar Plot",plotOutput("Bar")),
+          tabPanel("Dot Plot", plotOutput("Dot"))
         ),
-        
 
       )
     )
