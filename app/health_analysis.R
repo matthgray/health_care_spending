@@ -14,7 +14,12 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(GGally, magrittr, pacman, rio, tidyverse)
 
 # health_spending %>% ggpairs()
+mean(health_spending$Expenditure)
 
+
+health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  summarize(mean(Expenditure))
 # growth_rate = growth %>%
   # first sort by year
 test <- health_spending %>%

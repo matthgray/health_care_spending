@@ -21,10 +21,11 @@ shinyUI(
     dashboardBody(
       fluidRow(
         tabBox(
-          title = "First",
+          title = "Expenditure",
           id = "distPlot", height = "300px", width = "300px",
           tabPanel("Bar Plot",plotOutput("Bar")),
-          tabPanel("Dot Plot", plotOutput("Dot"))
+          tabPanel("Dot Plot", plotOutput("Dot")),
+          tabPanel("Numbers", valueBoxOutput("approvalBox"))
         ),
 
       )

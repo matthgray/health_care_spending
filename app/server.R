@@ -31,5 +31,16 @@ shinyServer(function(input, output) {
       geom_point(size = 3) +
       geom_smooth(method = lm)
   })
+  output$approvalBox <- renderValueBox({
+    valueBox(
+      paste0(
+        health_spending %>%
+          filter(Disease == input$Disease) %>%
+          summarize(mean(Expenditure))
+      ),
+      "Progress", icon = icon("list"), color = "purple"
+    )
+
+  })
   
 })
