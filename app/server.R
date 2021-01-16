@@ -36,11 +36,21 @@ shinyServer(function(input, output) {
       paste0(
         health_spending %>%
           filter(Disease == input$Disease) %>%
-          summarize(mean(Expenditure))
+          summarize(mean(Expenditure,trim =  0.5))
       ),
-      "Progress", icon = icon("list"), color = "purple"
+      "Average", icon = icon("calculator"), color = "green"
     )
 
+  })
+  output$stdBox <- renderValueBox({
+    valueBox(
+      paste0(
+        health_spending %>%
+          filter(Disease == input$Disease) %>%
+          summarize(std = sd(Expenditure))
+      ),
+      "Standard Deviation", icon = icon("squar-root"), color = "red"
+    )
   })
   
 })

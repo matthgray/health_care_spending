@@ -10,10 +10,15 @@ shinyUI(
     dashboardSidebar(
 
       width = 300,
+      sidebarMenu(
+        id = "Health",
+        style = "position: relative;overflow: visible;",
+      
       selectInput("Disease",
                   "Choose a disease:",
                   choices = Disease_choices,
                   selected = Disease_choices[1])
+      )
 
     ),
     #distPlot
@@ -21,11 +26,13 @@ shinyUI(
     dashboardBody(
       fluidRow(
         tabBox(
-          title = "Expenditure",
+          title = "Expenditure in billions",
           id = "distPlot", height = "300px", width = "300px",
+          tabPanel("Numbers", valueBoxOutput("approvalBox"),
+                   valueBoxOutput("stdBox")),
           tabPanel("Bar Plot",plotOutput("Bar")),
-          tabPanel("Dot Plot", plotOutput("Dot")),
-          tabPanel("Numbers", valueBoxOutput("approvalBox"))
+          tabPanel("Dot Plot", plotOutput("Dot"))
+
         ),
 
       )

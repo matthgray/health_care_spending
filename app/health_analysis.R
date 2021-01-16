@@ -4,7 +4,7 @@ library("tidyverse")
 pacman::p_load(pacman, party, rio, tidyverse)
 library(ggplot2)
 library(dplyr)
-
+library("growthrates")
 
 health_spending <- read_csv('CleanData.csv')
 if (!require("pacman")) install.packages("pacman")
@@ -16,12 +16,18 @@ pacman::p_load(GGally, magrittr, pacman, rio, tidyverse)
 # health_spending %>% ggpairs()
 mean(health_spending$Expenditure)
 
+health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  growth.
+
 
 health_spending %>%
   filter(Disease == "Infectious and parasitic diseases") %>%
   summarize(mean(Expenditure))
 # growth_rate = growth %>%
   # first sort by year
+
+
 test <- health_spending %>%
   filter(Disease == "Infectious and parasitic diseases") %>%
   arrange(Year) %>%
