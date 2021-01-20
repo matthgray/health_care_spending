@@ -26,12 +26,12 @@ shinyUI(
     dashboardBody(
       fluidRow(
         tabBox(
-          title = "Expenditure in billions",
+          title = "Expenditure in Billions",
           id = "distPlot", height = "300px", width = "300px",
-          tabPanel("Numbers", valueBoxOutput("approvalBox"),
-                   valueBoxOutput("stdBox")),
-          tabPanel("Bar Plot",plotOutput("Bar")),
-          tabPanel("Dot Plot", plotOutput("Dot"))
+          tabPanel("The Application",),
+          tabPanel("2000 to 2017",valueBoxOutput("approvalBox"),
+                   valueBoxOutput("stdBox"), valueBoxOutput("diffBox"),plotOutput("Bar")),
+          tabPanel("Regression", plotOutput("Dot"))
 
         ),
 

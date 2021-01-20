@@ -17,6 +17,12 @@ pacman::p_load(GGally, magrittr, pacman, rio, tidyverse)
 mean(health_spending$Expenditure)
 
 health_spending %>%
+  cor(Expenditure,Year)
+
+cor(health_spending,Expenditure,Year)
+
+
+health_spending %>%
   filter(Disease == "Infectious and parasitic diseases") %>%
   growth.
 
@@ -26,7 +32,9 @@ health_spending %>%
   summarize(mean(Expenditure))
 # growth_rate = growth %>%
   # first sort by year
-
+health_spending %>%
+  filter(Disease == "Infectious and parasitic diseases") %>%
+  summarize(max(Expenditure) - min(Expenditure))
 
 test <- health_spending %>%
   filter(Disease == "Infectious and parasitic diseases") %>%
@@ -64,6 +72,7 @@ h_avg_costs <-health_spending %>%
   summarize(average_cost = mean(Expenditure)) %>%
   arrange(desc(average_cost))
 
+
 low_costs <- health_spending %>%
               arrange(Expenditure)
 
@@ -71,6 +80,11 @@ low_costs <- health_spending %>%
 
 high_costs <- h_data %>%
   arrange(desc(Costs))
+
+different_costs <- health_spending %>%
+  group_by(Disease) %>%
+  summarize(difference = max(Expenditure) - min(Expenditure)) %>%
+  arrange(desc(difference))
 
 
 health_spending %>%
@@ -81,10 +95,11 @@ h_avg_costs <-health_spending %>%
                 summarize(average_cost = mean(Expenditure)) %>%
                 arrange(desc(average_cost))
 
-health_spending %>%
+h_std_costs <- health_spending %>%
   group_by(Disease) %>%
   summarize(std = sd(Expenditure)) %>%
   arrange(desc(std))
+
 
 
 health_spending %>%
