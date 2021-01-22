@@ -18,7 +18,7 @@ shinyServer(function(input, output) {
     health_spending %>%
       filter(Disease == input$Disease) %>% 
       ggplot(aes(x = Year,y=Expenditure)) +
-      ggtitle(input$Disease) +
+      ggtitle(input$Disease,subtitle = "in billions") +
       geom_bar(fill = "steelblue",stat="identity")+
       geom_text(aes(label=Expenditure), vjust=1.6, color="black", size=3.5)+
       theme_dark()
@@ -27,7 +27,7 @@ shinyServer(function(input, output) {
     health_spending %>%
       filter(Disease == input$Disease) %>%
       ggplot(aes(Year, Expenditure)) +
-      ggtitle(input$Disease) +
+      ggtitle(input$Disease,subtitle = "in billions") +
       geom_point(size = 3) +
       geom_smooth(method = lm)
   })
@@ -39,7 +39,7 @@ shinyServer(function(input, output) {
           summarize(mean(Expenditure,trim =  0.5)) %>%
           round(2)
       ),
-      "Average in Billions", icon = icon("calculator"), color = "green"
+      "Average in billions", icon = icon("calculator"), color = "green"
     )
 
   })
@@ -51,7 +51,7 @@ shinyServer(function(input, output) {
           summarize(std = sd(Expenditure)) %>%
           round(2)
       ),
-      "Standard Deviation", icon = icon("calculator"), color = "red"
+      "Distance from the mean in billions", icon = icon("calculator"), color = "red"
     )
   })
   output$diffBox <- renderValueBox({
@@ -61,7 +61,7 @@ shinyServer(function(input, output) {
           filter(Disease == input$Disease) %>%
           summarize(max(Expenditure) - min(Expenditure))
       ),
-      "Difference", icon = icon("calculator"), color = "blue"
+      "Difference from max and min in billions", icon = icon("calculator"), color = "blue"
     )
   })
 })

@@ -26,12 +26,16 @@ shinyUI(
     dashboardBody(
       fluidRow(
         tabBox(
-          title = "Expenditure in Billions",
+          title = "Expenditure in billions",
           id = "distPlot", height = "300px", width = "300px",
-          tabPanel("The Application",),
-          tabPanel("2000 to 2017",valueBoxOutput("approvalBox"),
+          tabPanel("Manual",h2("This application allows the user to visualize
+                   data from the Bureau of Economic Analysis on healthcare spending by disease."),br(),
+                   strong("How to use this application"),br(),
+                   h3("Given you have the side bar open in the top left. When you click on the disease. Then the graph shows the data for that disease."),
+                   ),
+          tabPanel("Spending over the years",valueBoxOutput("approvalBox"),
                    valueBoxOutput("stdBox"), valueBoxOutput("diffBox"),plotOutput("Bar")),
-          tabPanel("Regression", plotOutput("Dot"))
+          tabPanel("Relationship between years and spending", plotOutput("Dot"))
 
         ),
 
