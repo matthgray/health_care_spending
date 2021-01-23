@@ -7,7 +7,9 @@ The idea is to create a descriptive analysis application on health care expendit
 * What is the minimun spending for a disease?
 
 # Data Selection
-I'm using data from https://www.bea.gov/data/special-topics/health-care to analyze this
+I'm using data from https://www.bea.gov/data/special-topics/health-care.
+To better measure spending trends and treatment prices, BEA developed a set of supplemental statistics called the Health Care Satellite Account. These statistics give policymakers, researchers and the public another way of understanding the economics of health care.
+
 
 # Cleaning
 The data needed some rows removed and a transfer from wide to tall.
