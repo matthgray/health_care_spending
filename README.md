@@ -8,7 +8,7 @@ The idea is to create a descriptive analysis application on health care expendit
 
 # Data Selection
 I'm using data from https://www.bea.gov/data/special-topics/health-care.
-To better measure spending trends and treatment prices, BEA developed a set of supplemental statistics called the Health Care Satellite Account. These statistics give policymakers, researchers and the public another way of understanding the economics of health care.
+To better measure spending trends and treatment prices, BEA developed a set of supplemental statistics called the Health Care Satellite Account. These statistics give policymakers, researchers and the public another way of understanding the economics of health care. I'm using the real prices from the data to account for inflation.
 
 
 # Cleaning
