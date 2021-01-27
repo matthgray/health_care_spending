@@ -1,10 +1,10 @@
 # Inspiration
 The idea is to create a descriptive analysis application on health care expenditure by disease in the United States from 2000 to 2017. This can help health insurance companies negotiate prices for coverage with hospitals. Also, entrepreneur's could use this to see demand for products or services in certain markets in health care.
 ## Key Questions:
-* What is the average growth rate for a disease?
 * What is the average spending for a diseases?
 * What is the max spending for a disease?
-* What is the minimun spending for a disease?
+* What is the standard deviation of diseases?
+* What is the difference between the minimun and max spending in diseases?
 
 # Data Selection
 I'm using data from https://www.bea.gov/data/special-topics/health-care.
