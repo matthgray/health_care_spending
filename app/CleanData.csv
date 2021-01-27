@@ -1,0 +1,559 @@
+"","Disease","Year","Expenditure"
+"1","Infectious and parasitic diseases","2000",36.39
+"2","Infectious and parasitic diseases","2001",35.84
+"3","Infectious and parasitic diseases","2002",34.7
+"4","Infectious and parasitic diseases","2003",32.91
+"5","Infectious and parasitic diseases","2004",32.77
+"6","Infectious and parasitic diseases","2005",31.74
+"7","Infectious and parasitic diseases","2006",34.27
+"8","Infectious and parasitic diseases","2007",34.26
+"9","Infectious and parasitic diseases","2008",33.65
+"10","Infectious and parasitic diseases","2009",36.36
+"11","Infectious and parasitic diseases","2010",37.05
+"12","Infectious and parasitic diseases","2011",36.53
+"13","Infectious and parasitic diseases","2012",37.67
+"14","Infectious and parasitic diseases","2013",38.61
+"15","Infectious and parasitic diseases","2014",41.15
+"16","Infectious and parasitic diseases","2015",45.57
+"17","Infectious and parasitic diseases","2016",45.94
+"18","Infectious and parasitic diseases","2017",46.78
+"19","Neoplasms","2000",90.81
+"20","Neoplasms","2001",104.91
+"21","Neoplasms","2002",97.11
+"22","Neoplasms","2003",95.28
+"23","Neoplasms","2004",101.18
+"24","Neoplasms","2005",94.72
+"25","Neoplasms","2006",98.7
+"26","Neoplasms","2007",114.74
+"27","Neoplasms","2008",132.6
+"28","Neoplasms","2009",124.78
+"29","Neoplasms","2010",115.09
+"30","Neoplasms","2011",116.82
+"31","Neoplasms","2012",137.43
+"32","Neoplasms","2013",124.94
+"33","Neoplasms","2014",129.24
+"34","Neoplasms","2015",130.73
+"35","Neoplasms","2016",158.48
+"36","Neoplasms","2017",140.5
+"37","Endocrine; nutritional; and metabolic diseases and immunity disorders","2000",77.8
+"38","Endocrine; nutritional; and metabolic diseases and immunity disorders","2001",81.26
+"39","Endocrine; nutritional; and metabolic diseases and immunity disorders","2002",85.48
+"40","Endocrine; nutritional; and metabolic diseases and immunity disorders","2003",85.93
+"41","Endocrine; nutritional; and metabolic diseases and immunity disorders","2004",91.22
+"42","Endocrine; nutritional; and metabolic diseases and immunity disorders","2005",99.67
+"43","Endocrine; nutritional; and metabolic diseases and immunity disorders","2006",109.82
+"44","Endocrine; nutritional; and metabolic diseases and immunity disorders","2007",120.55
+"45","Endocrine; nutritional; and metabolic diseases and immunity disorders","2008",130.87
+"46","Endocrine; nutritional; and metabolic diseases and immunity disorders","2009",135.5
+"47","Endocrine; nutritional; and metabolic diseases and immunity disorders","2010",137.78
+"48","Endocrine; nutritional; and metabolic diseases and immunity disorders","2011",143.3
+"49","Endocrine; nutritional; and metabolic diseases and immunity disorders","2012",145.78
+"50","Endocrine; nutritional; and metabolic diseases and immunity disorders","2013",148.43
+"51","Endocrine; nutritional; and metabolic diseases and immunity disorders","2014",153.94
+"52","Endocrine; nutritional; and metabolic diseases and immunity disorders","2015",160.02
+"53","Endocrine; nutritional; and metabolic diseases and immunity disorders","2016",86.49
+"54","Endocrine; nutritional; and metabolic diseases and immunity disorders","2017",87
+"55","Mental illness","2000",74.18
+"56","Mental illness","2001",78.22
+"57","Mental illness","2002",81.82
+"58","Mental illness","2003",80.8
+"59","Mental illness","2004",86.94
+"60","Mental illness","2005",94.55
+"61","Mental illness","2006",99.34
+"62","Mental illness","2007",97.1
+"63","Mental illness","2008",102.33
+"64","Mental illness","2009",108.31
+"65","Mental illness","2010",110.1
+"66","Mental illness","2011",114.28
+"67","Mental illness","2012",118.21
+"68","Mental illness","2013",119.86
+"69","Mental illness","2014",125.32
+"70","Mental illness","2015",132.57
+"71","Mental illness","2016",85.29
+"72","Mental illness","2017",87.54
+"73","Diseases of the nervous system and sense organs","2000",107.91
+"74","Diseases of the nervous system and sense organs","2001",106.98
+"75","Diseases of the nervous system and sense organs","2002",111.56
+"76","Diseases of the nervous system and sense organs","2003",99.93
+"77","Diseases of the nervous system and sense organs","2004",114.95
+"78","Diseases of the nervous system and sense organs","2005",118.27
+"79","Diseases of the nervous system and sense organs","2006",115.83
+"80","Diseases of the nervous system and sense organs","2007",115.95
+"81","Diseases of the nervous system and sense organs","2008",120.88
+"82","Diseases of the nervous system and sense organs","2009",121.35
+"83","Diseases of the nervous system and sense organs","2010",118.01
+"84","Diseases of the nervous system and sense organs","2011",122.39
+"85","Diseases of the nervous system and sense organs","2012",123.05
+"86","Diseases of the nervous system and sense organs","2013",124.1
+"87","Diseases of the nervous system and sense organs","2014",137.12
+"88","Diseases of the nervous system and sense organs","2015",146.08
+"89","Diseases of the nervous system and sense organs","2016",101.45
+"90","Diseases of the nervous system and sense organs","2017",102.26
+"91","Diseases of the circulatory system","2000",168.83
+"92","Diseases of the circulatory system","2001",168.51
+"93","Diseases of the circulatory system","2002",170.99
+"94","Diseases of the circulatory system","2003",171.91
+"95","Diseases of the circulatory system","2004",180.1
+"96","Diseases of the circulatory system","2005",187.5
+"97","Diseases of the circulatory system","2006",196.6
+"98","Diseases of the circulatory system","2007",218.93
+"99","Diseases of the circulatory system","2008",247.84
+"100","Diseases of the circulatory system","2009",259.74
+"101","Diseases of the circulatory system","2010",261.38
+"102","Diseases of the circulatory system","2011",260.71
+"103","Diseases of the circulatory system","2012",256.07
+"104","Diseases of the circulatory system","2013",261.68
+"105","Diseases of the circulatory system","2014",267.52
+"106","Diseases of the circulatory system","2015",269.23
+"107","Diseases of the circulatory system","2016",203.17
+"108","Diseases of the circulatory system","2017",217.9
+"109","Diseases of the respiratory system","2000",136.46
+"110","Diseases of the respiratory system","2001",142.27
+"111","Diseases of the respiratory system","2002",147.45
+"112","Diseases of the respiratory system","2003",140.35
+"113","Diseases of the respiratory system","2004",128.75
+"114","Diseases of the respiratory system","2005",132.15
+"115","Diseases of the respiratory system","2006",140.7
+"116","Diseases of the respiratory system","2007",135.28
+"117","Diseases of the respiratory system","2008",132.91
+"118","Diseases of the respiratory system","2009",135.72
+"119","Diseases of the respiratory system","2010",135.44
+"120","Diseases of the respiratory system","2011",136.25
+"121","Diseases of the respiratory system","2012",134.02
+"122","Diseases of the respiratory system","2013",134.52
+"123","Diseases of the respiratory system","2014",137.43
+"124","Diseases of the respiratory system","2015",137.6
+"125","Diseases of the respiratory system","2016",117.12
+"126","Diseases of the respiratory system","2017",115.92
+"127","Diseases of the digestive system","2000",107.74
+"128","Diseases of the digestive system","2001",113.81
+"129","Diseases of the digestive system","2002",122.54
+"130","Diseases of the digestive system","2003",122.94
+"131","Diseases of the digestive system","2004",122.06
+"132","Diseases of the digestive system","2005",123.52
+"133","Diseases of the digestive system","2006",129.09
+"134","Diseases of the digestive system","2007",129.31
+"135","Diseases of the digestive system","2008",131.83
+"136","Diseases of the digestive system","2009",134.02
+"137","Diseases of the digestive system","2010",130.88
+"138","Diseases of the digestive system","2011",131.42
+"139","Diseases of the digestive system","2012",136.16
+"140","Diseases of the digestive system","2013",139.83
+"141","Diseases of the digestive system","2014",134.62
+"142","Diseases of the digestive system","2015",136.63
+"143","Diseases of the digestive system","2016",98.05
+"144","Diseases of the digestive system","2017",93.72
+"145","Diseases of the genitourinary system","2000",52.42
+"146","Diseases of the genitourinary system","2001",60.32
+"147","Diseases of the genitourinary system","2002",64.47
+"148","Diseases of the genitourinary system","2003",66.21
+"149","Diseases of the genitourinary system","2004",67.43
+"150","Diseases of the genitourinary system","2005",67.27
+"151","Diseases of the genitourinary system","2006",68.15
+"152","Diseases of the genitourinary system","2007",69.05
+"153","Diseases of the genitourinary system","2008",68.83
+"154","Diseases of the genitourinary system","2009",71.05
+"155","Diseases of the genitourinary system","2010",73.46
+"156","Diseases of the genitourinary system","2011",74.83
+"157","Diseases of the genitourinary system","2012",77.92
+"158","Diseases of the genitourinary system","2013",79.92
+"159","Diseases of the genitourinary system","2014",75.79
+"160","Diseases of the genitourinary system","2015",76.47
+"161","Diseases of the genitourinary system","2016",82.93
+"162","Diseases of the genitourinary system","2017",78.35
+"163","Complications of pregnancy; childbirth; and the puerperium","2000",80.06
+"164","Complications of pregnancy; childbirth; and the puerperium","2001",83.37
+"165","Complications of pregnancy; childbirth; and the puerperium","2002",76.79
+"166","Complications of pregnancy; childbirth; and the puerperium","2003",73.23
+"167","Complications of pregnancy; childbirth; and the puerperium","2004",74.53
+"168","Complications of pregnancy; childbirth; and the puerperium","2005",74.76
+"169","Complications of pregnancy; childbirth; and the puerperium","2006",77.11
+"170","Complications of pregnancy; childbirth; and the puerperium","2007",75.65
+"171","Complications of pregnancy; childbirth; and the puerperium","2008",73.37
+"172","Complications of pregnancy; childbirth; and the puerperium","2009",69.06
+"173","Complications of pregnancy; childbirth; and the puerperium","2010",66.99
+"174","Complications of pregnancy; childbirth; and the puerperium","2011",71.33
+"175","Complications of pregnancy; childbirth; and the puerperium","2012",71.7
+"176","Complications of pregnancy; childbirth; and the puerperium","2013",75.38
+"177","Complications of pregnancy; childbirth; and the puerperium","2014",71.88
+"178","Complications of pregnancy; childbirth; and the puerperium","2015",63.37
+"179","Complications of pregnancy; childbirth; and the puerperium","2016",74.07
+"180","Complications of pregnancy; childbirth; and the puerperium","2017",71.24
+"181","Diseases of the skin and subcutaneous organs","2000",43.26
+"182","Diseases of the skin and subcutaneous organs","2001",45.96
+"183","Diseases of the skin and subcutaneous organs","2002",46.28
+"184","Diseases of the skin and subcutaneous organs","2003",44.24
+"185","Diseases of the skin and subcutaneous organs","2004",41
+"186","Diseases of the skin and subcutaneous organs","2005",39.81
+"187","Diseases of the skin and subcutaneous organs","2006",41.74
+"188","Diseases of the skin and subcutaneous organs","2007",43.07
+"189","Diseases of the skin and subcutaneous organs","2008",42.56
+"190","Diseases of the skin and subcutaneous organs","2009",40.63
+"191","Diseases of the skin and subcutaneous organs","2010",40.39
+"192","Diseases of the skin and subcutaneous organs","2011",40.63
+"193","Diseases of the skin and subcutaneous organs","2012",41.49
+"194","Diseases of the skin and subcutaneous organs","2013",44.63
+"195","Diseases of the skin and subcutaneous organs","2014",46.06
+"196","Diseases of the skin and subcutaneous organs","2015",45.63
+"197","Diseases of the skin and subcutaneous organs","2016",45.44
+"198","Diseases of the skin and subcutaneous organs","2017",43.34
+"199","Diseases of the musculoskeletal system and connective tissue","2000",134.92
+"200","Diseases of the musculoskeletal system and connective tissue","2001",149.27
+"201","Diseases of the musculoskeletal system and connective tissue","2002",155.23
+"202","Diseases of the musculoskeletal system and connective tissue","2003",151.53
+"203","Diseases of the musculoskeletal system and connective tissue","2004",149.32
+"204","Diseases of the musculoskeletal system and connective tissue","2005",154.08
+"205","Diseases of the musculoskeletal system and connective tissue","2006",157.29
+"206","Diseases of the musculoskeletal system and connective tissue","2007",172.29
+"207","Diseases of the musculoskeletal system and connective tissue","2008",188.16
+"208","Diseases of the musculoskeletal system and connective tissue","2009",196.2
+"209","Diseases of the musculoskeletal system and connective tissue","2010",201.4
+"210","Diseases of the musculoskeletal system and connective tissue","2011",206.97
+"211","Diseases of the musculoskeletal system and connective tissue","2012",206.96
+"212","Diseases of the musculoskeletal system and connective tissue","2013",213.66
+"213","Diseases of the musculoskeletal system and connective tissue","2014",224.62
+"214","Diseases of the musculoskeletal system and connective tissue","2015",230.59
+"215","Diseases of the musculoskeletal system and connective tissue","2016",218.57
+"216","Diseases of the musculoskeletal system and connective tissue","2017",239.26
+"217","Injury and poisoning","2000",144.53
+"218","Injury and poisoning","2001",153.34
+"219","Injury and poisoning","2002",150.12
+"220","Injury and poisoning","2003",137
+"221","Injury and poisoning","2004",134.14
+"222","Injury and poisoning","2005",135.24
+"223","Injury and poisoning","2006",138.46
+"224","Injury and poisoning","2007",137.17
+"225","Injury and poisoning","2008",134.6
+"226","Injury and poisoning","2009",130.23
+"227","Injury and poisoning","2010",127.46
+"228","Injury and poisoning","2011",131.36
+"229","Injury and poisoning","2012",129.93
+"230","Injury and poisoning","2013",134.19
+"231","Injury and poisoning","2014",135.65
+"232","Injury and poisoning","2015",139.31
+"233","Injury and poisoning","2016",142.36
+"234","Injury and poisoning","2017",146.04
+"235","Symptoms; signs; and ill-defined conditions","2000",127.85
+"236","Symptoms; signs; and ill-defined conditions","2001",133.18
+"237","Symptoms; signs; and ill-defined conditions","2002",140.48
+"238","Symptoms; signs; and ill-defined conditions","2003",153.03
+"239","Symptoms; signs; and ill-defined conditions","2004",150.27
+"240","Symptoms; signs; and ill-defined conditions","2005",139.7
+"241","Symptoms; signs; and ill-defined conditions","2006",141.72
+"242","Symptoms; signs; and ill-defined conditions","2007",140.98
+"243","Symptoms; signs; and ill-defined conditions","2008",139.74
+"244","Symptoms; signs; and ill-defined conditions","2009",140.55
+"245","Symptoms; signs; and ill-defined conditions","2010",141.67
+"246","Symptoms; signs; and ill-defined conditions","2011",143.77
+"247","Symptoms; signs; and ill-defined conditions","2012",145.84
+"248","Symptoms; signs; and ill-defined conditions","2013",152.44
+"249","Symptoms; signs; and ill-defined conditions","2014",160.06
+"250","Symptoms; signs; and ill-defined conditions","2015",163.65
+"251","Symptoms; signs; and ill-defined conditions","2016",240.72
+"252","Symptoms; signs; and ill-defined conditions","2017",241.67
+"253","Diseases of the blood and blood-forming organs","2000",28.27
+"254","Diseases of the blood and blood-forming organs","2001",31.1
+"255","Diseases of the blood and blood-forming organs","2002",26.3
+"256","Diseases of the blood and blood-forming organs","2003",25.86
+"257","Diseases of the blood and blood-forming organs","2004",25.91
+"258","Diseases of the blood and blood-forming organs","2005",26.37
+"259","Diseases of the blood and blood-forming organs","2006",24.43
+"260","Diseases of the blood and blood-forming organs","2007",23.05
+"261","Diseases of the blood and blood-forming organs","2008",26.33
+"262","Diseases of the blood and blood-forming organs","2009",25.89
+"263","Diseases of the blood and blood-forming organs","2010",25.91
+"264","Diseases of the blood and blood-forming organs","2011",26.56
+"265","Diseases of the blood and blood-forming organs","2012",31.87
+"266","Diseases of the blood and blood-forming organs","2013",32.63
+"267","Diseases of the blood and blood-forming organs","2014",30.23
+"268","Diseases of the blood and blood-forming organs","2015",29.79
+"269","Diseases of the blood and blood-forming organs","2016",2.67
+"270","Diseases of the blood and blood-forming organs","2017",2.62
+"271","Congenital anomalies","2000",4.36
+"272","Congenital anomalies","2001",4.58
+"273","Congenital anomalies","2002",5.12
+"274","Congenital anomalies","2003",4.92
+"275","Congenital anomalies","2004",4.32
+"276","Congenital anomalies","2005",4.25
+"277","Congenital anomalies","2006",4.76
+"278","Congenital anomalies","2007",5.89
+"279","Congenital anomalies","2008",6.3
+"280","Congenital anomalies","2009",6.44
+"281","Congenital anomalies","2010",6.14
+"282","Congenital anomalies","2011",5.66
+"283","Congenital anomalies","2012",6.19
+"284","Congenital anomalies","2013",5.75
+"285","Congenital anomalies","2014",5.01
+"286","Congenital anomalies","2015",5.9
+"287","Congenital anomalies","2016",0
+"288","Congenital anomalies","2017",0
+"289","Certain conditions originating in the perinatal period","2000",3.46
+"290","Certain conditions originating in the perinatal period","2001",6.3
+"291","Certain conditions originating in the perinatal period","2002",7.5
+"292","Certain conditions originating in the perinatal period","2003",10.4
+"293","Certain conditions originating in the perinatal period","2004",8.82
+"294","Certain conditions originating in the perinatal period","2005",6.81
+"295","Certain conditions originating in the perinatal period","2006",7.05
+"296","Certain conditions originating in the perinatal period","2007",8.34
+"297","Certain conditions originating in the perinatal period","2008",9.3
+"298","Certain conditions originating in the perinatal period","2009",8.58
+"299","Certain conditions originating in the perinatal period","2010",7.81
+"300","Certain conditions originating in the perinatal period","2011",11.2
+"301","Certain conditions originating in the perinatal period","2012",15.18
+"302","Certain conditions originating in the perinatal period","2013",12.7
+"303","Certain conditions originating in the perinatal period","2014",9.54
+"304","Certain conditions originating in the perinatal period","2015",8.48
+"305","Certain conditions originating in the perinatal period","2016",16.34
+"306","Certain conditions originating in the perinatal period","2017",20.85
+"307","Residual codes; unclassified; all E codes","2000",22.73
+"308","Residual codes; unclassified; all E codes","2001",24.46
+"309","Residual codes; unclassified; all E codes","2002",23.31
+"310","Residual codes; unclassified; all E codes","2003",21.91
+"311","Residual codes; unclassified; all E codes","2004",22.25
+"312","Residual codes; unclassified; all E codes","2005",22.69
+"313","Residual codes; unclassified; all E codes","2006",24.42
+"314","Residual codes; unclassified; all E codes","2007",25.39
+"315","Residual codes; unclassified; all E codes","2008",25.29
+"316","Residual codes; unclassified; all E codes","2009",25.74
+"317","Residual codes; unclassified; all E codes","2010",27.29
+"318","Residual codes; unclassified; all E codes","2011",29.4
+"319","Residual codes; unclassified; all E codes","2012",30.76
+"320","Residual codes; unclassified; all E codes","2013",32.1
+"321","Residual codes; unclassified; all E codes","2014",33.75
+"322","Residual codes; unclassified; all E codes","2015",34.16
+"323","Residual codes; unclassified; all E codes","2016",9.33
+"324","Residual codes; unclassified; all E codes","2017",9.36
+"325","Medical services by provider","2000",235.37
+"326","Medical services by provider","2001",240.42
+"327","Medical services by provider","2002",246.87
+"328","Medical services by provider","2003",250.85
+"329","Medical services by provider","2004",255.16
+"330","Medical services by provider","2005",258.94
+"331","Medical services by provider","2006",259.85
+"332","Medical services by provider","2007",265.09
+"333","Medical services by provider","2008",267.65
+"334","Medical services by provider","2009",266.46
+"335","Medical services by provider","2010",270.39
+"336","Medical services by provider","2011",268.35
+"337","Medical services by provider","2012",268.29
+"338","Medical services by provider","2013",266.92
+"339","Medical services by provider","2014",270.35
+"340","Medical services by provider","2015",273.72
+"341","Medical services by provider","2016",278.29
+"342","Medical services by provider","2017",279.41
+"343","Dental services","2000",102.63
+"344","Dental services","2001",107.56
+"345","Dental services","2002",112.24
+"346","Dental services","2003",111.04
+"347","Dental services","2004",113.25
+"348","Dental services","2005",113.21
+"349","Dental services","2006",112.06
+"350","Dental services","2007",112.96
+"351","Dental services","2008",112.71
+"352","Dental services","2009",109.77
+"353","Dental services","2010",109.35
+"354","Dental services","2011",108.23
+"355","Dental services","2012",107.16
+"356","Dental services","2013",105.03
+"357","Dental services","2014",105.59
+"358","Dental services","2015",107.38
+"359","Dental services","2016",109.82
+"360","Dental services","2017",111.65
+"361","Nursing homes","2000",132.84
+"362","Nursing homes","2001",133.16
+"363","Nursing homes","2002",135.09
+"364","Nursing homes","2003",140.06
+"365","Nursing homes","2004",142.18
+"366","Nursing homes","2005",145.9
+"367","Nursing homes","2006",147.91
+"368","Nursing homes","2007",152.21
+"369","Nursing homes","2008",155.01
+"370","Nursing homes","2009",156.73
+"371","Nursing homes","2010",161.05
+"372","Nursing homes","2011",160.12
+"373","Nursing homes","2012",161.13
+"374","Nursing homes","2013",161.91
+"375","Nursing homes","2014",164.8
+"376","Nursing homes","2015",166.37
+"377","Nursing homes","2016",168.47
+"378","Nursing homes","2017",167.7
+"379","Proprietary and government nursing homes","2000",85.91
+"380","Proprietary and government nursing homes","2001",85.43
+"381","Proprietary and government nursing homes","2002",86.54
+"382","Proprietary and government nursing homes","2003",89.74
+"383","Proprietary and government nursing homes","2004",91.41
+"384","Proprietary and government nursing homes","2005",93.15
+"385","Proprietary and government nursing homes","2006",94.77
+"386","Proprietary and government nursing homes","2007",98.15
+"387","Proprietary and government nursing homes","2008",101.63
+"388","Proprietary and government nursing homes","2009",102.46
+"389","Proprietary and government nursing homes","2010",106.29
+"390","Proprietary and government nursing homes","2011",105.51
+"391","Proprietary and government nursing homes","2012",106.44
+"392","Proprietary and government nursing homes","2013",107.35
+"393","Proprietary and government nursing homes","2014",110.17
+"394","Proprietary and government nursing homes","2015",112.5
+"395","Proprietary and government nursing homes","2016",114.66
+"396","Proprietary and government nursing homes","2017",114.59
+"397","Nonprofit nursing homes services to households","2000",46.93
+"398","Nonprofit nursing homes services to households","2001",47.73
+"399","Nonprofit nursing homes services to households","2002",48.54
+"400","Nonprofit nursing homes services to households","2003",50.32
+"401","Nonprofit nursing homes services to households","2004",50.77
+"402","Nonprofit nursing homes services to households","2005",52.75
+"403","Nonprofit nursing homes services to households","2006",53.14
+"404","Nonprofit nursing homes services to households","2007",54.06
+"405","Nonprofit nursing homes services to households","2008",53.38
+"406","Nonprofit nursing homes services to households","2009",54.27
+"407","Nonprofit nursing homes services to households","2010",54.76
+"408","Nonprofit nursing homes services to households","2011",54.61
+"409","Nonprofit nursing homes services to households","2012",54.69
+"410","Nonprofit nursing homes services to households","2013",54.56
+"411","Nonprofit nursing homes services to households","2014",54.64
+"412","Nonprofit nursing homes services to households","2015",53.87
+"413","Nonprofit nursing homes services to households","2016",53.81
+"414","Nonprofit nursing homes services to households","2017",53.12
+"415","Medical products, appliances and equipment","2000",63.51
+"416","Medical products, appliances and equipment","2001",63.13
+"417","Medical products, appliances and equipment","2002",67.49
+"418","Medical products, appliances and equipment","2003",72.26
+"419","Medical products, appliances and equipment","2004",77.71
+"420","Medical products, appliances and equipment","2005",83.87
+"421","Medical products, appliances and equipment","2006",89.27
+"422","Medical products, appliances and equipment","2007",95.92
+"423","Medical products, appliances and equipment","2008",98.16
+"424","Medical products, appliances and equipment","2009",98.39
+"425","Medical products, appliances and equipment","2010",104.85
+"426","Medical products, appliances and equipment","2011",111.86
+"427","Medical products, appliances and equipment","2012",116.2
+"428","Medical products, appliances and equipment","2013",119.91
+"429","Medical products, appliances and equipment","2014",124.3
+"430","Medical products, appliances and equipment","2015",131.08
+"431","Medical products, appliances and equipment","2016",136.92
+"432","Medical products, appliances and equipment","2017",140.4
+"433","Pharmaceutical and other medical products","2000",27.16
+"434","Pharmaceutical and other medical products","2001",27.81
+"435","Pharmaceutical and other medical products","2002",29.8
+"436","Pharmaceutical and other medical products","2003",31.99
+"437","Pharmaceutical and other medical products","2004",34.53
+"438","Pharmaceutical and other medical products","2005",37.69
+"439","Pharmaceutical and other medical products","2006",40.23
+"440","Pharmaceutical and other medical products","2007",42.75
+"441","Pharmaceutical and other medical products","2008",45.88
+"442","Pharmaceutical and other medical products","2009",47.22
+"443","Pharmaceutical and other medical products","2010",51.59
+"444","Pharmaceutical and other medical products","2011",57
+"445","Pharmaceutical and other medical products","2012",61.21
+"446","Pharmaceutical and other medical products","2013",63.15
+"447","Pharmaceutical and other medical products","2014",66.02
+"448","Pharmaceutical and other medical products","2015",70.1
+"449","Pharmaceutical and other medical products","2016",74
+"450","Pharmaceutical and other medical products","2017",75.84
+"451","Pharmaceutical products (without prescription drugs)","2000",25.12
+"452","Pharmaceutical products (without prescription drugs)","2001",25.65
+"453","Pharmaceutical products (without prescription drugs)","2002",27.53
+"454","Pharmaceutical products (without prescription drugs)","2003",29.48
+"455","Pharmaceutical products (without prescription drugs)","2004",31.69
+"456","Pharmaceutical products (without prescription drugs)","2005",34.57
+"457","Pharmaceutical products (without prescription drugs)","2006",36.78
+"458","Pharmaceutical products (without prescription drugs)","2007",38.94
+"459","Pharmaceutical products (without prescription drugs)","2008",42.03
+"460","Pharmaceutical products (without prescription drugs)","2009",43.46
+"461","Pharmaceutical products (without prescription drugs)","2010",47.54
+"462","Pharmaceutical products (without prescription drugs)","2011",52.74
+"463","Pharmaceutical products (without prescription drugs)","2012",56.67
+"464","Pharmaceutical products (without prescription drugs)","2013",58.43
+"465","Pharmaceutical products (without prescription drugs)","2014",61.05
+"466","Pharmaceutical products (without prescription drugs)","2015",64.75
+"467","Pharmaceutical products (without prescription drugs)","2016",68.26
+"468","Pharmaceutical products (without prescription drugs)","2017",69.94
+"469","Nonprescription drugs","2000",25.12
+"470","Nonprescription drugs","2001",25.65
+"471","Nonprescription drugs","2002",27.53
+"472","Nonprescription drugs","2003",29.48
+"473","Nonprescription drugs","2004",31.69
+"474","Nonprescription drugs","2005",34.57
+"475","Nonprescription drugs","2006",36.78
+"476","Nonprescription drugs","2007",38.94
+"477","Nonprescription drugs","2008",42.03
+"478","Nonprescription drugs","2009",43.46
+"479","Nonprescription drugs","2010",47.54
+"480","Nonprescription drugs","2011",52.74
+"481","Nonprescription drugs","2012",56.67
+"482","Nonprescription drugs","2013",58.43
+"483","Nonprescription drugs","2014",61.05
+"484","Nonprescription drugs","2015",64.75
+"485","Nonprescription drugs","2016",68.26
+"486","Nonprescription drugs","2017",69.94
+"487","Other medical products","2000",2.05
+"488","Other medical products","2001",2.16
+"489","Other medical products","2002",2.28
+"490","Other medical products","2003",2.52
+"491","Other medical products","2004",2.85
+"492","Other medical products","2005",3.12
+"493","Other medical products","2006",3.46
+"494","Other medical products","2007",3.81
+"495","Other medical products","2008",3.86
+"496","Other medical products","2009",3.76
+"497","Other medical products","2010",4.06
+"498","Other medical products","2011",4.26
+"499","Other medical products","2012",4.54
+"500","Other medical products","2013",4.73
+"501","Other medical products","2014",4.96
+"502","Other medical products","2015",5.35
+"503","Other medical products","2016",5.73
+"504","Other medical products","2017",5.9
+"505","Therapeutic appliances and equipment","2000",36.46
+"506","Therapeutic appliances and equipment","2001",35.39
+"507","Therapeutic appliances and equipment","2002",37.76
+"508","Therapeutic appliances and equipment","2003",40.34
+"509","Therapeutic appliances and equipment","2004",43.25
+"510","Therapeutic appliances and equipment","2005",46.25
+"511","Therapeutic appliances and equipment","2006",49.11
+"512","Therapeutic appliances and equipment","2007",53.25
+"513","Therapeutic appliances and equipment","2008",52.34
+"514","Therapeutic appliances and equipment","2009",51.22
+"515","Therapeutic appliances and equipment","2010",53.28
+"516","Therapeutic appliances and equipment","2011",54.86
+"517","Therapeutic appliances and equipment","2012",54.99
+"518","Therapeutic appliances and equipment","2013",56.75
+"519","Therapeutic appliances and equipment","2014",58.29
+"520","Therapeutic appliances and equipment","2015",60.99
+"521","Therapeutic appliances and equipment","2016",62.96
+"522","Therapeutic appliances and equipment","2017",64.61
+"523","Corrective eyeglasses and contact lenses","2000",23.92
+"524","Corrective eyeglasses and contact lenses","2001",21.89
+"525","Corrective eyeglasses and contact lenses","2002",23.43
+"526","Corrective eyeglasses and contact lenses","2003",24.34
+"527","Corrective eyeglasses and contact lenses","2004",25.06
+"528","Corrective eyeglasses and contact lenses","2005",26.18
+"529","Corrective eyeglasses and contact lenses","2006",26.64
+"530","Corrective eyeglasses and contact lenses","2007",28.41
+"531","Corrective eyeglasses and contact lenses","2008",28.36
+"532","Corrective eyeglasses and contact lenses","2009",28.95
+"533","Corrective eyeglasses and contact lenses","2010",30.38
+"534","Corrective eyeglasses and contact lenses","2011",31.89
+"535","Corrective eyeglasses and contact lenses","2012",31.62
+"536","Corrective eyeglasses and contact lenses","2013",32.44
+"537","Corrective eyeglasses and contact lenses","2014",32.77
+"538","Corrective eyeglasses and contact lenses","2015",33.49
+"539","Corrective eyeglasses and contact lenses","2016",33.55
+"540","Corrective eyeglasses and contact lenses","2017",34.37
+"541","Therapeutic medical equipment","2000",12.87
+"542","Therapeutic medical equipment","2001",13.67
+"543","Therapeutic medical equipment","2002",14.52
+"544","Therapeutic medical equipment","2003",16.15
+"545","Therapeutic medical equipment","2004",18.25
+"546","Therapeutic medical equipment","2005",20.11
+"547","Therapeutic medical equipment","2006",22.44
+"548","Therapeutic medical equipment","2007",24.79
+"549","Therapeutic medical equipment","2008",23.94
+"550","Therapeutic medical equipment","2009",22.27
+"551","Therapeutic medical equipment","2010",22.9
+"552","Therapeutic medical equipment","2011",22.97
+"553","Therapeutic medical equipment","2012",23.37
+"554","Therapeutic medical equipment","2013",24.31
+"555","Therapeutic medical equipment","2014",25.53
+"556","Therapeutic medical equipment","2015",27.53
+"557","Therapeutic medical equipment","2016",29.49
+"558","Therapeutic medical equipment","2017",30.32
