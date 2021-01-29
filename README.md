@@ -1,5 +1,7 @@
 # Inspiration
 The idea is to create a descriptive analysis application on health care expenditure by disease in the United States from 2000 to 2017. This can help health insurance companies negotiate prices for coverage with hospitals. Also, entrepreneur's could use this to see demand for products or services in certain markets in health care.
+Here is the link to my application: 
+https://matthewhgray.shinyapps.io/health-care-spending/
 ## Key Questions:
 * What is the average spending for a diseases?
 * What is the max spending for a disease?
